@@ -1,5 +1,5 @@
 ## 
-## Build with replay
+## Build with replay & Graphql
 
 https://facebook.github.io/relay/
 
@@ -74,3 +74,6 @@ https://github.com/mars/create-react-app-buildpack
         
 #Style the component
 `npm install --save styled-components`
+
+
+## Getting there

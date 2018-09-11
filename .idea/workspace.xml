@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b04691cc-3a42-4195-bb7b-af4cb028c873" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../tictactoe/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/src/components/AuthButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/src/containers/TicTacToe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/src/mutations/CreateGame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/src/mutations/CreateUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tictactoe/src/mutations/SigninUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tictactoe/src/containers/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/src/containers/Profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tictactoe/src/containers/Template.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/src/containers/Template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tictactoe/src/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/src/routes/routes.js" afterDir="false" />
+    <list default="true" id="b04691cc-3a42-4195-bb7b-af4cb028c873" name="Default" comment="Add lot of materials as the whole project">
+      <change beforePath="$PROJECT_DIR$/../tictactoe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tictactoe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../tictactoe/src/routes/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../tictactoe/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -74,6 +67,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../tictactoe/src/containers/Template.js" />
         <option value="$PROJECT_DIR$/../tictactoe/src/routes/routes.js" />
+        <option value="$PROJECT_DIR$/../tictactoe/README.md" />
       </list>
     </option>
   </component>
@@ -175,6 +169,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styled" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -202,10 +202,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="K:\tictactoe\src\utils" />
+      <recent name="K:\tictactoe\src\styled" />
       <recent name="K:\tictactoe\src\mutations" />
       <recent name="K:\tictactoe\src\containers" />
       <recent name="K:\tictactoe\src\components" />
-      <recent name="K:\tictactoe\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,7 +315,7 @@
       <updated>1536642309322</updated>
       <workItem from="1536642312940" duration="5727000" />
       <workItem from="1536648081278" duration="11201000" />
-      <workItem from="1536659896423" duration="820000" />
+      <workItem from="1536659896423" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1536643193006</created>
@@ -365,18 +366,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536660285958</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add lot of materials as the whole project">
+      <created>1536660795923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536660795923</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17748000" />
+    <option name="totallyTimeSpent" value="17895000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="33" width="1184" height="1025" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50088966" side_tool="true" visible="true" weight="0.33258173" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32924107" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
@@ -396,8 +404,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32924107" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
       <window_info id="npm" order="2" sideWeight="0.5024958" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4991103" visible="true" weight="0.33258173" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49750414" visible="true" weight="0.41725978" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32924107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49750414" visible="true" weight="0.25" />
       <window_info anchor="right" id="Color Manager" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -431,7 +439,8 @@
     <MESSAGE value="Add router" />
     <MESSAGE value="Add Router and browser history" />
     <MESSAGE value="Add material UI and finishe up the Routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add material UI and finishe up the Routes" />
+    <MESSAGE value="Add lot of materials as the whole project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add lot of materials as the whole project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../tictactoe/package.json">
@@ -493,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tictactoe/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="427">
-            <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tictactoe/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -561,6 +560,22 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tictactoe/src/styled/TuringTest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tictactoe/src/utils/media.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tictactoe/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
