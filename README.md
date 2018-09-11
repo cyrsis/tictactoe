@@ -24,3 +24,22 @@ Change the config file
 Look for cache dir `cacheDirectory: true,` to `false`
 
 #make it do not cache the scheme for reply
+
+Add plugins for package.json
+`"babel": {
+     "plugins" : ["react-relay"],
+     "presets": [
+       "react-app"
+     ]
+   },`
+
+#Set Graphql in the build and run script
+
+` "start": " GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjlx9m9171crg0124m00mguvm  node scripts/start.js",
+     "build": "GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjlx9m9171crg0124m00mguvm node scripts/build.js",`
+
+
+#On Windows
+
+`set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjlx9m9171crg0124m00mguvm
+`
