@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
+import  NavDrawer  from "../components/NavDrawer";
+
 
 
 class Template extends Component {
@@ -8,17 +11,17 @@ class Template extends Component {
 
 
         return (
+
             <div>
 
-                <header>
-                    <h1>TicTacToe</h1>
-                </header>
 
+                <NavDrawer/>
                 <main>
                     {this.props.children}
                 </main>
 
             </div>
+
         );
     }
 }

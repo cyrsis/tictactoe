@@ -48,6 +48,29 @@ Add plugins for package.json
 `yarn add react-router@3.2.0`
 
 
-##Ui
+##Ui with material UI
 
-`yarn add material-ui`
+`npm install @material-ui/core`
+
+## needed for tap in mobile device
+
+`yarn add react-tap-event-plugin` //Do not need when react 16
+
+
+## Build pack for heroku
+https://github.com/mars/create-react-app-buildpack
+
+
+# 3 layer design
+1. Container 
+    - Connected to Store
+    - Pass data to children
+2. Components
+    - Manage their own state
+    - Pass props to presentational components
+3. Presentational
+    - No state
+    -Change styling base on props
+        
+#Style the component
+`npm install --save styled-components`
