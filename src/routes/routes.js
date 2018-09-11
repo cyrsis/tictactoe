@@ -4,6 +4,16 @@ import Template from "../containers/Template"
 import Home from "../containers/Home";
 import Profile from "../containers/Profile";
 
+
+const ViewerQueries = {
+    viewer: () => Relay.QL`query { viewer }`
+}
+
+const userOnly = (nextState, replace) => {
+    if (!auth.getToken()) {
+        replace('/')
+    }
+}
 const createRoutes = () => {
     return (
         <Route

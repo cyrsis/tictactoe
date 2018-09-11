@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
 import  NavDrawer  from "../components/NavDrawer";
+import Relay from 'react-relay'
 
 
 
@@ -15,10 +16,17 @@ class Template extends Component {
             <div>
 
 
-                <NavDrawer/>
-                <main>
+                <NavDrawer
+
+                    auth={this.props.route.auth}
+                    authenticated={this.props.viewer.user}
+                />
+                <Header>
+                    TicTacTuring
+                </Header>
+                <Main>
                     {this.props.children}
-                </main>
+                </Main>
 
             </div>
 
@@ -27,4 +35,16 @@ class Template extends Component {
 }
 
 
-export default Template;
+export default Relay.createContainer(
+    Template, {
+        fragments: {
+            viewer: () => Relay.QL`
+        fragment on Viewer {
+          user {
+            id
+          }
+        }
+      `,
+        }
+    }
+)
