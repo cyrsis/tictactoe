@@ -43,3 +43,6 @@ Add plugins for package.json
 
 `set GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cjlx9m9171crg0124m00mguvm
 `
+##SPA with React Router V3 , V4 wont work
+
+`yarn add react-router@3.0.2`

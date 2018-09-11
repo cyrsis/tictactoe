@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04691cc-3a42-4195-bb7b-af4cb028c873" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../tictactoe/src/config/endpoints.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tictactoe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tictactoe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tictactoe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../tictactoe/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../tictactoe/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/../tictactoe/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="294">
-                <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+              <first_editor relative-caret-position="446">
+                <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,6 +29,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,6 +52,7 @@
         <option value="$PROJECT_DIR$/../tictactoe/src/index.js" />
         <option value="$PROJECT_DIR$/../tictactoe/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/../tictactoe/package.json" />
+        <option value="$PROJECT_DIR$/../tictactoe/src/config/endpoints.js" />
         <option value="$PROJECT_DIR$/../tictactoe/README.md" />
       </list>
     </option>
@@ -120,6 +128,12 @@
               <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://K:/tictactoe/README.md&#10;read&#9;FILE&#9;file://K:/tictactoe/README.md&#10;pack&#9;FILE&#9;file://K:/tictactoe/package.json&#10;re&#9;FILE&#9;file://K:/tictactoe/README.md" />
+    <property name="SearchEverywhereHistoryKey" value="read&#9;FILE&#9;file://K:/tictactoe/README.md&#10;pack&#9;FILE&#9;file://K:/tictactoe/package.json&#10;re&#9;FILE&#9;file://K:/tictactoe/README.md" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -239,7 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536642309322</updated>
-      <workItem from="1536642312940" duration="2200000" />
+      <workItem from="1536642312940" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1536643193006</created>
@@ -255,14 +269,22 @@
       <option name="project" value="LOCAL" />
       <updated>1536643717443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Everything is working">
+      <created>1536644666342</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536644666342</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2200000" />
+    <option name="totallyTimeSpent" value="2706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -285,8 +307,8 @@
       <window_info anchor="bottom" id="Version Control" weight="0.32924107" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
       <window_info id="npm" sideWeight="0.50083196" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32924107" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32924107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916804" visible="true" weight="0.25" />
       <window_info anchor="right" id="Color Manager" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Theme Preview" />
@@ -309,7 +331,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update readme" />
     <MESSAGE value="Change some config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change some config" />
+    <MESSAGE value="Everything is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything is working" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../tictactoe/public/index.html">
@@ -362,11 +385,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../tictactoe/src/config/endpoints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" selection-start-column="82" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../tictactoe/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <first_editor relative-caret-position="446">
+            <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
