@@ -45,4 +45,9 @@ Add plugins for package.json
 `
 ##SPA with React Router V3 , V4 wont work
 
-`yarn add react-router@3.0.2`
+`yarn add react-router@3.2.0`
+
+
+##Ui
+
+`yarn add material-ui`

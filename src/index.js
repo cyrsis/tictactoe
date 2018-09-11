@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Router, browserHistory } from 'react-router'
+import Routes from "./routes/routes";
 
-ReactDOM.render(<Router history={browserHistory}/>
+
+// browerhistory allow us go back and forward
+ReactDOM.render(
+    <Router
+        history={browserHistory}
+        routes={Routes}
+    />
     , document.getElementById('root'));
-registerServiceWorker();
+
